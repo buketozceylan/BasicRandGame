@@ -17,6 +17,7 @@ while n < 11:
         score -= 30
         print("Score: " + str(score))
         Guess = int(input("Guess: "))
+        
     elif score == 0:
         print("Your score is 0")
 
